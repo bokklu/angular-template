@@ -1,3 +1,2 @@
-@import "bootstrap/scss/bootstrap";
-
-// Import only needed scss files from bootstrap and not all
+@import "./bootstrap-utils";
+// Import only needed scss files from bootstrap that are needed globally
