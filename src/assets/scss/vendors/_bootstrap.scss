@@ -1,2 +1,7 @@
-@import "./bootstrap-utils";
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+@import "bootstrap/scss/buttons";
+
 // Import only needed scss files from bootstrap that are needed globally
