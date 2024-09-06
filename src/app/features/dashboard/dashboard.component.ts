@@ -20,8 +20,9 @@ import { SidebarComponent } from '../../shared/components/sidebar/sidebar.compon
   styleUrl: './dashboard.component.scss',
 })
 export class DashboardComponent {
-  @ViewChild('offcanvasSidebar', { static: true })
   isCollapsed = false;
+
+  @ViewChild('offcanvasSidebar', { static: true })
   offcanvasContent!: TemplateRef<any>;
 
   constructor(private offcanvasService: NgbOffcanvas) {}
